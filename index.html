@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Site da stéfane</title>
+</head>
+<body>
+
+    <!-- MENU SUPERIOR-->
+    <div id="menu-superior">
+        <img src="imagem/logo.svg.svg" id="logo" alt="ERRO">  
+        <h1 id="titulo-superior"> Dê os primeiros passos para transfomar seu<br>
+            negócio em marcas que conquistam corações </h1>
+        <p id="texto-superior"> Somos uma agência de marketing digital especialista em branding, <br>
+            gestão de redes socias, tráfego pago, análise de perfil, linha editorial, design gráfico e estratégias de <br>
+            conteúdo, website, ajudamos nossos clientes a crescer e se destacar no mercado. <br>
+             Nossa abordagem humanizada e com alma nos permite criar conexões genuínas e impactantes. <br>
+            <br>Vamos decolar juntos? 
+        </p>
+
+    </div>
+
+    <!-- MENU INFORMACIONAL-->
+    <div id="menu-informacional">
+       <p class="texto-info" >  <img src="icones/construcao.svg"  class="icones" id="empresa" alt=""> Mais de 20 empresas alcançadas </p>
+       <p class="texto-info" >  <img src="icones/analisar-alt.svg"  class="icones" id="analise" alt="">Analise de perfil para seu negócio</p>
+       <p class="texto-info" >  <img src="icones/usuarios-alt.svg" class="icones" id="consultoria" alt="">  Consultoria particular</p>
+    </div>
+
+    <!--SEÇÂO DE VIDEO-->
+<div  id="secaodevideo">
+    <iframe id="video" width="502" height="283" src="imagem/vidio.mp4" title="Conheça um pouco mais do nosso trabalho" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+    <div>
+        <h1 id="titulo-video"> 
+            Conheça um pouco mais do nosso trabalho
+       </h1> <br><br>
+
+       <p class="p" id="texto-video">  Na Lírio Conecta, somos especialistas em impulsionar marcas com estratégias de marketing <br>
+         personalizadas e eficazes. Nossa missão é ajudar sua empresa a se destacar e alcançar resultados excepcionais. <br>
+
+        <br>Nossos Serviços Incluem: <br>
+        
+        <br> Branding, Identidade Visual, Gestão de Redes Sociais, Marketing de Conteúdo, Copywriting, <br>
+         Design Gráfico, Fotografia e Vídeo , Edição de Vídeo, Desenvolvimento de Sites, Tráfego Pago <br>
+         e SEO, Consultoria,  Pesquisa de Mercado, Registro de Marca, 
+         Gestão de Crise e Análise de Dados. <br>
+         <br> Entre em contato e descubra como podemos ajudar sua marca a crescer! <br>
+
+       </p>
+    </div>
+</div> 
+
+<!-- CARROSSEL-->
+<div id="carrossel">
+     <h1 id="titulo-carrossel"></h1>
+
+     <!-- DIVISAO DOS CARDS-->
+     <div id="div-card">
+        <img id="seta-esquerda" onclick="RolarParaEsquerda()" class="seta" src="" alt="">
+        <img id="leo" class="card" src="" alt="">
+        <img id="sama" class="card" src="" alt="">
+        <img id="bruna" class="card" src="" alt="">
+        <img id="seta-direita" onclick="RolarParaDireita()" class="seta" src="" alt="">
+
+     </div>
+</div>
+
+<!--FORMULARIO-->
+<div id="formulario">
+    <h1 id="texto-formulario" >Entre em contato conosco! <br> Clique nos icones <br></h1>
+    <div id="icones-formulario">
+        
+        <p class="texto-info" > <a href="https://www.instagram.com/lirioconecta?igsh=YzljYTk1ODg3Zg=" target=_blank" rel="noopener noreferrer"> <img src="icones/instagram.svg"  class="icones" id="icones-i" alt=""></a> Intagram  </p>
+        <p class="texto-info" > <a href="http://wa.me/31985885120" target=_blank" rel="noopener noreferrer"> <img src="icones/whatsapp.svg"  class="icones" id="icones-w" alt=""></a> Whatsapp</p>
+        <p class="texto-info" > <a href="http://www.gmail.com" target=_blank" rel="noopener noreferrer"> <img src="icones/envelope.svg" class="icones" id="icones-e" alt=""></a>  E-mail: Lirioconecta@gmail.com</p>
+     </div>
+
+     <a href="http://wa.me/31985885120" target=_blank" rel="noopener noreferrer"> <button type="submit"> Fale comigo pelo whatsapp </button> </a>
+    
+ </form>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
